@@ -7,7 +7,7 @@ const $userNameInput = document.querySelector(["[name='user-name']"]);
 const $userPhonInput = document.querySelector(["[name='user-phone']"]);
 const $form = document.querySelector("form");
 const $reservation = document.querySelector("#reservation-number");
-
+console.log($userNameInput);
 function NodeUserListInReservationList() {
   alert("일치하는 내역이 없습니다");
   $reservation.innerHTML = "일치하는 내역이 없습니다";
